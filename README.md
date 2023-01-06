@@ -19,6 +19,11 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+4. Reconstruir la base de datos con el seed // ojo este tiene comando destructivo al inicio, entocnes borra todo lo que este en mongoDB
+```
+http://localhost:3001/api/v2/seed
+```
+
 #Stack usado
 * MongoDB
 * Nest
